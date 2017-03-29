@@ -1,0 +1,1 @@
+SELECT count(*) FROM ads WHERE TO_DAYS(NOW()) - TO_DAYS(creation_date) >= 10;
